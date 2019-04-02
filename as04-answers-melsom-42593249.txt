@@ -1,0 +1,27 @@
+phys3071 as04 melsom 42593249
+
+Q2. 
+The predator and prey start at the same initial population, and the number of 
+prey isn't high enough to support the population of predator. This causes the 
+predator population to fall and the prey population can grow without enough 
+predators to eat them. This causes an abundance of prey which will allow the 
+predator population to grow. Once the predator population grows, they eat too 
+many prey and the prey population will fall. This will cause a decline in 
+predator population, the cycle repeats.
+
+This means that the predator population lags behind the prey population in 
+growth and decline.
+
+Q4.
+x_stat, the stable prey population is 30 when y_stat, the stable predator
+population is 15. If I run the first program from this assignment setting the 
+initial populations as the stable solutions found by the second program and 
+plot the results in phase space (plot2), I get a single point on the plot. This
+confirms that the values are stable.
+The steady state conditions are when both dy/dt and dx/dt are simultaneously 
+zero. This occurs when y = ALPHA/BETA = 1.5/0.1 = 15 and x = GAMMA/DELTA = 
+3.0/0.1 = 30.
+
+The other solution for steady state can only be found in this system when x and
+y are both zero, which our system will never reach due to the dynamics of the
+system.
